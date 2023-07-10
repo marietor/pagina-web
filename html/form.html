@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Datos</title>
+    <link rel="stylesheet" href="../css/form.css">
+    <style>
+        form {
+            display: flex;
+            flex-flow: column;
+
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <H2>Datos Personales</H2>
+        <div class="combo">
+            <label for="">Nombre</label>
+            <input type="text" name="nombre">
+        </div>
+        <div class="combo">
+            <label for="">Apellido</label>
+            <input type="text" name="apellido" />
+        </div>
+        <div class="combo">
+            <label for="">edad</label>
+            <input type="number" />
+        </div>
+        <div class="combo">
+            <label for="">Consulta</label>
+            <input type="text" />
+        </div>
+        <div class="combo">
+            <label for="Email">Email</label>
+            <input type="text" name="email" />
+        </div>
+
+        <Div class="interconteiner">
+            <legend>Seleccione sus intereses</legend>
+
+            <div class="combo">
+                <input type="checkbox" name="inter" value="Corporal" id="corporal">
+                <label for="corporal">corporal</label>
+
+            </div>
+            <div class="combo">
+                <input type="checkbox" name="inter" value="masajes" id="masaje">
+                <label for="masaje">masajes</label>
+
+            </div>
+        </div>
+        <div class="combo">
+            <input type="checkbox" name="inter" value="Facial" id="Facial">
+            <label for="Facial">Facial</label>
+
+
+        </Div>
+
+        <input type="submit" value="Enviar" />
+
+    </form>
+</body>
+
+</html>

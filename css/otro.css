@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(228, 236, 236);
+}
+h1, h2{
+    font-family: fantasy;
+    font-size: 50px;
+   font-style: oblique;
+      
+}
+.letra{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    
+}
+
+

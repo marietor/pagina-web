@@ -1,0 +1,25 @@
+
+h2{
+    font-family: monospace;
+    font-size: 40px;
+}
+.combo{
+    margin: 10px;
+
+}
+input[type="submit"]{
+    font-size: 25px;
+    font-weight: 600;
+    background-color: blueviolet;
+    display: block;
+    width: 100px;
+    height: 70;
+}
+
+legend{
+    font-family: monospace;
+    font-size: 20px;
+}
+ body{
+    background-color: darkgrey;
+ }
